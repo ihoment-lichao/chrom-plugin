@@ -1,0 +1,1 @@
+import{r as e,c as t,o as a,a as _,b as s}from"./chunk-3d929b3d.js";const n=_("div",null,"\u63D2\u4EF6\u8BBE\u7F6E\u9875\u9762",-1),o=[n],r={__name:"Options",setup(c){return e("create-chrome-ext"),(p,l)=>(a(),t("main",null,o))}};s(r).mount("#app");

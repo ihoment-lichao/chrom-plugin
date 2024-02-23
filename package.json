@@ -1,0 +1,39 @@
+{
+  "name": "my-crx",
+  "version": "0.0.0",
+  "author": "no one",
+  "description": "",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "chrome-extension",
+    "vue",
+    "vite",
+    "create-chrome-ext"
+  ],
+  "engines": {
+    "node": ">=14.18.0"
+  },
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview",
+    "fmt": "prettier --write '**/*.{vue,js,json,css,scss,md}'"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "element-plus": "2.2.33",
+    "qs": "^6.11.2",
+    "unplugin-auto-import": "^0.16.6",
+    "unplugin-vue-components": "^0.25.1",
+    "vue": "^3.2.37",
+    "xmldom": "^0.6.0"
+  },
+  "devDependencies": {
+    "@crxjs/vite-plugin": "^1.0.12",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "prettier": "^2.7.1",
+    "vite": "^2.9.13",
+    "vite-plugin-zip-pack": "^1.0.5"
+  }
+}
